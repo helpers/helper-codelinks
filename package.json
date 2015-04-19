@@ -1,7 +1,7 @@
 {
   "name": "helper-codelinks",
   "description": "Generate a list of links that take you to the first line of code for each method in a given directory.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/helpers/helper-codelinks",
   "author": {
     "name": "Jon Schlinkert",
