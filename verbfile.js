@@ -1,10 +1,11 @@
 'use strict';
 
 var verb = require('verb');
+var codelinks = require('./')(verb);
 
-verb.helper('codelinks', require('./'));
+verb.helper('codelinks', codelinks);
 
 verb.task('default', function () {
-  return verb.src('.verb.md')
+  verb.src('.verb.md')
     .pipe(verb.dest('.'));
 });
