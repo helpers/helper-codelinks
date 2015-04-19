@@ -1,7 +1,7 @@
 {
   "name": "helper-codelinks",
   "description": "Generate a list of links that take you to the first line of code for each method in a given directory.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/helpers/helper-codelinks",
   "author": {
     "name": "Jon Schlinkert",
@@ -50,6 +50,7 @@
     "verbhelper"
   ],
   "dependencies": {
-    "api-toc": "^0.2.0"
+    "api-toc": "^0.3.1",
+    "mixin-deep": "^1.0.1"
   }
 }
