@@ -1,0 +1,52 @@
+{
+  "name": "helper-codelinks",
+  "description": "Generate a list of links to the first line of code for each method in a given directory.",
+  "version": "0.1.2",
+  "homepage": "https://github.com/helpers/helper-codelinks",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/helpers/helper-codelinks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/helpers/helper-codelinks/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/helpers/helper-codelinks/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "verb": "^0.5.0"
+  },
+  "keywords": [
+    "api",
+    "assemble",
+    "assemblehelper",
+    "contents",
+    "docs",
+    "documentation",
+    "helper",
+    "helpers",
+    "table",
+    "template",
+    "templatehelper",
+    "toc",
+    "verb",
+    "verbhelper"
+  ]
+}
