@@ -22,6 +22,10 @@ describe('codelinks', function () {
     codelinks()('fixtures/').should.equal(read('actual/codelinks.md'));
   });
 
+  it('should support filtering with glob patterns:', function () {
+    codelinks()('fixtures/', {filter: '!**/two.js'}).should.equal(read('actual/filtered.md'));
+  });
+
   it('should throw an error when the first arg is not a string:', function () {
     (function () {
       codelinks()();
