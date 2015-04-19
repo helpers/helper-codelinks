@@ -18,13 +18,13 @@ function read(name) {
 }
 
 describe('codelinks', function () {
-  it('should:', function () {
-    codelinks('fixtures/').should.equal(read('actual/codelinks.md'));
+  it('should generate links for the given directory:', function () {
+    codelinks()('fixtures/').should.equal(read('actual/codelinks.md'));
   });
 
   it('should throw an error when the first arg is not a string:', function () {
     (function () {
-      codelinks();
+      codelinks()();
     }).should.throw('helper-codelinks expects the first argument to be a string.');
   });
 });
