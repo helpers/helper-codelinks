@@ -1,6 +1,6 @@
 # helper-codelinks [![NPM version](https://badge.fury.io/js/helper-codelinks.svg)](http://badge.fury.io/js/helper-codelinks)  [![Build Status](https://travis-ci.org/helpers/helper-codelinks.svg)](https://travis-ci.org/helpers/helper-codelinks) 
 
-> Generate a list of links to the first line of code for each method in a given directory.
+> Generate a list of links that take you to the first line of code for each method in a given directory.
 
 ## Install with [npm](npmjs.org)
 

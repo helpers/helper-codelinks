@@ -1,6 +1,6 @@
 {
   "name": "helper-codelinks",
-  "description": "Generate a list of links to the first line of code for each method in a given directory.",
+  "description": "Generate a list of links that take you to the first line of code for each method in a given directory.",
   "version": "0.1.0",
   "homepage": "https://github.com/helpers/helper-codelinks",
   "author": {
